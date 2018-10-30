@@ -39,6 +39,7 @@ Ayudar a resolver la logística del transporte escolar a través de una WebApp q
 
 ## Aplicación
 ![APP](https://i.imgur.com/8OIbNYK.jpg)
+![NP](https://i.imgur.com/IjH0YJL.jpg)
 
 ## Pruebas con Ususarios
 
@@ -59,6 +60,9 @@ https://drive.google.com/file/d/1ok2-qG0Dah6wrSzsXcWq5jNBPWq1RBMz/view?usp=shari
 https://drive.google.com/file/d/1soxeQWB6S_yPR4Uvzg-9ipf5SvGKIx8e/view?usp=sharing
 
 https://drive.google.com/file/d/1mW3HxDlGUwSfa--BK_Cw4r1UFgiy6z2m/view?usp=sharing
+
+## Iteraciones
+#### Primera Iteración
 
 ## Prototipo de Alta Fidelidad
 
