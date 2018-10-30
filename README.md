@@ -33,6 +33,10 @@ Ayudar a resolver la logística del transporte escolar a través de una WebApp q
 ## User Persona
 ![UP](https://i.imgur.com/XUKvnPp.jpg)
 
+## Empathy Map
+
+![EM](https://i.imgur.com/sJEQweW.png)
+
 ## Aplicación
 ![APP](https://i.imgur.com/8OIbNYK.jpg)
 
@@ -47,6 +51,8 @@ Ayudar a resolver la logística del transporte escolar a través de una WebApp q
 *-Que cuenten con dispositivo móvil*
 
 *-Que tenga hijos*
+
+## Insights
 
 https://drive.google.com/file/d/1ok2-qG0Dah6wrSzsXcWq5jNBPWq1RBMz/view?usp=sharing
 
