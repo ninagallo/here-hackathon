@@ -5,32 +5,34 @@
 </template>
 
 <script>
-  export default {
-    name: "Map",
-    data() {
-      return {
-        map: {},
-        platform: {},
-        geocoder: {}
-      }
-    },
-    props: {
-      appId: String,
-      appCode: String,
-      lat: String,
-      lng: String,
-      width: String,
-      height: String,
-      location: String
-    },
-    created() {
-      this.platform = new H.service.Platform({
-        "app_id": this.appId,
-        "app_code": this.appCode
-      });
-      this.geocoder = this.platform.getGeocodingService();
-    },
-    mounted() {
+const platform = new H.service.Platform({
+  app_id: 'LbRwyMzRp1cGXIsI0GNE',
+  app_code: '_Zz0xbDQRqeT03IH5Q22iQ',
+});
+
+export default {
+  name: 'Map',
+  data() {
+    return {
+      map: {},
+      platform: {},
+    };
+  },
+  props: {
+    appId: String,
+    appCode: String,
+    lat: String,
+    lng: String,
+    width: String,
+    height: String,
+  },
+  created() {
+    this.platform = new H.service.Platform({
+      app_id: this.appId,
+      app_code: this.appCode,
+    });
+  },
+  mounted() {
     this.map = new H.Map(
         this.$refs.map,
         this.platform.createDefaultLayers().normal.map,

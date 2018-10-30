@@ -3,10 +3,10 @@
         <Map
             appId="LbRwyMzRp1cGXIsI0GNE"
             appCode="_Zz0xbDQRqeT03IH5Q22iQ"
-            lat="‎19.4284706"
-            lng="-99.1276627 "
-            width="100%"
-            height="2835px" />
+            lat="194.326"
+            lng="-991.333"
+            width="300px"
+            height="380px" />
     </div>
 </template>
 

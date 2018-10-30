@@ -9,21 +9,32 @@
 </template>
 
 <script>
-  import Map from "./components/Map.vue";
-  export default {
-    name: 'app',
-    components: {
-      Map
-    }
-  }
+import Map from './components/Map.vue';
+
+export default {
+  name: 'app',
+  components: {
+    Map,
+  },
+  data() {
+    return {
+      query: 'schools',
+    };
+  },
+  methods: {
+    search() {
+      this.$refs.map.places(this.query);
+    },
+  },
+};
 </script>
 
 <style>
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-  }
+    #app {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: left;
+        color: #2c3e50;
+    }
 </style>

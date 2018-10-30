@@ -6,7 +6,7 @@
           <h3>Bienvenido, ingrese a su cuenta</h3>
           <input type="email" v-model="email" placeholder="Ingresa tu correo">
           <input type="password" v-model="password" placeholder="Ingresa tu contraseña">
-          <button class="btn btn-warning">Adelante!</button>
+          <button class="btn btn-dark">Iniciar Sesión</button>
         </form>
       </div>
     </div>
