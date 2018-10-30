@@ -2,12 +2,14 @@
     <div class="container background">
       <div class="row">
         <div class="col-">
-          <h3>Here</h3>
-          <h3>We</h3>
-          <h3>Bus</h3>
+          <p>HERE <br>
+             WE <br>
+             BUS</p>
           <form @submit.prevent="login">
-            <input type="email" v-model="email" placeholder="Correo electrónico">
-            <input type="password" v-model="password" placeholder="Contraseña">
+            <div class="form-group">
+              <input type="email" v-model="email" placeholder="Correo electrónico">
+              <input type="password" v-model="password" placeholder="Contraseña"> 
+            </div>
             <button class="btn btn-dark">Iniciar Sesión</button>
           </form>
         </div>
@@ -35,7 +37,7 @@ methods: {
 
 <style scoped>
 .background{
-    background-image: url('../assets/School_Bus.jpg');
+    background-color: #7dbae4;
     height: 100vh;
 }
 div{
