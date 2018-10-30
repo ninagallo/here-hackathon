@@ -1,16 +1,18 @@
 <template>
     <div class="container background">
       <div class="row">
-        <div class="col-">
-          <p>HERE <br>
+        <div class="col">
+          <p id="title">HERE <br>
              WE <br>
              BUS</p>
           <form @submit.prevent="login">
             <div class="form-group">
-              <input type="email" v-model="email" placeholder="Correo electrónico">
-              <input type="password" v-model="password" placeholder="Contraseña"> 
+              <input class="input form-control" type="email" v-model="email" placeholder="Correo electrónico">
+              <input class="input form-control" type="password" v-model="password" placeholder="Contraseña"> 
             </div>
-            <button class="btn btn-dark">Iniciar Sesión</button>
+            <div>
+              <button id="button" class="btn btn-dark">Iniciar Sesión</button>
+            </div>
           </form>
         </div>
       </div>
@@ -36,19 +38,62 @@ methods: {
 </script>
 
 <style scoped>
-.background{
+  .background {
     background-color: #7dbae4;
-    height: 100vh;
-}
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin-top: 80px;
   }
+
+  p {
+    text-align: left;
+    margin-left: 49px;
+    justify-content: flex-start;
+  }
+
+  #title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    align-items: flex-start;
+  }
+
+  .input {
+    background-color: #ffffff;
+    width: 190px;
+    margin-left: 45px;
+  }
+  #button {
+    justify-content: center;
+  }
+
   form > * {
     display: block;
   }
+  /* Tamaños de pantalla */
+@media screen and (max-width:991px){
+  #button {
+
+  }
+  #title {
+
+  }
+
+  .input {
+
+  }
+}
+
+@media screen and (max-width:575px) {
+  #button {
+    
+  }
+  #title {
+    
+  }
+
+  .input {
+    /* width: 300px;
+    height: 100px; */
+  }
+}
 </style>
 
 
