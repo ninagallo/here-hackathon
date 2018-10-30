@@ -14,21 +14,22 @@
 </template>
 
 <script>
-import firebase from 'firebase'
+import firebase from 'firebase';
+
 export default {
-  data () {
+  data() {
     return {
       email: '',
-      password: ''
-    }
+      password: '',
+    };
   },
   methods: {
-    login () {
+    login() {
       firebase.auth().signInWithEmailAndPassword(this.email, this.password)
-        .then((user) => this.$router.replace('Home'), (error) => console.error(error))
-    }
-  }
-}
+        .then(user => this.$router.replace('Home'), error => console.error(error));
+    },
+  },
+};
 </script>
 
 <style scoped>
