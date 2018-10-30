@@ -1,8 +1,9 @@
 <template>
-    <div id="app">
-        <input type="text" v-model="query" />
-        <button type="button" v-on:click="search()">Search</button>
-        <Map ref="map" appId="mc2NK6gAp2fuCvM11cbf" appCode="AJCclGzWJiB2SvQIm0LLpg" lat="19.43" lng="-99.13" width="100%" height="800px" />
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+      <router-link to="/login-driver">Eres conductor? Ingresa aquí</router-link>
     </div>
 </template>
 
