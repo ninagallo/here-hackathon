@@ -1,12 +1,14 @@
 # here
 
+
+##Matriz de Priorización
+![MP](https://i.imgur.com/N2Hpr66.jpg)
+
 ## Service Blue Print
-```
-npm install
-```
+![SBP](https://i.imgur.com/X41Ntlq.jpg)
 
 ### User Persona
-![Imgur](https://i.imgur.com/XUKvnPp.jpg)
+![UP](https://i.imgur.com/XUKvnPp.jpg)
 
 ### Compiles and minifies for production
 ```
