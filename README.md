@@ -28,7 +28,12 @@ Ayudar a resolver la logística del transporte escolar a través de una WebApp q
 ![MP](https://i.imgur.com/N2Hpr66.jpg)
 
 ## Service Blue Print
+
+**Service Blueprint Viaje**
 ![SBP](https://i.imgur.com/X41Ntlq.jpg)
+
+**Service Blueprint Cancelación Viaje**
+![SBPC](https://i.imgur.com/jaLNlg5.jpg)
 
 ## User Persona
 ![UP](https://i.imgur.com/XUKvnPp.jpg)
