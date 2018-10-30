@@ -6,7 +6,7 @@
           <h3>Bienvenido, ingrese a su cuenta</h3>
           <input type="email" v-model="email" placeholder="Ingresa tu correo">
           <input type="password" v-model="password" placeholder="Ingresa tu contraseña">
-          <button class="btn btn-warning">Adelante!</button>
+          <button class="btn btn-dark">Iniciar Sesión</button>
         </form>
       </div>
     </div>
@@ -14,21 +14,22 @@
 </template>
 
 <script>
-import firebase from 'firebase'
+import firebase from 'firebase';
+
 export default {
-  data () {
+  data() {
     return {
       email: '',
-      password: ''
-    }
+      password: '',
+    };
   },
   methods: {
-    login () {
+    login() {
       firebase.auth().signInWithEmailAndPassword(this.email, this.password)
-        .then((user) => this.$router.replace('Home'), (error) => console.error(error))
-    }
-  }
-}
+        .then(user => this.$router.replace('Home'), error => console.error(error));
+    },
+  },
+};
 </script>
 
 <style scoped>

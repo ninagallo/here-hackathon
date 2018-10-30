@@ -6,10 +6,10 @@
 </template>
 
 <script>
-var platform = new H.service.Platform({
-  'app_id': 'LbRwyMzRp1cGXIsI0GNE',
-  'app_code': '_Zz0xbDQRqeT03IH5Q22iQ'
-})
+const platform = new H.service.Platform({
+  app_id: 'LbRwyMzRp1cGXIsI0GNE',
+  app_code: '_Zz0xbDQRqeT03IH5Q22iQ',
+});
 
 export default {
   name: 'Map',
