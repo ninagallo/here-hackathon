@@ -1,4 +1,4 @@
-# WEB APP HERE 
+# HERE WE BUS 
 
 ## DEFINICIÓN DEL PROBLEMA
 
@@ -23,3 +23,11 @@ Ayudar a resolver la logística del transporte escolar a través de una WebApp q
 * Mantenerse al tanto del tiempo estimado de recolección y/o llegada  
 
 ## NUESTRA PROPUESTA 
+
+
+## Desarrolladoras
+Copelia Altamirano *FE*
+Carolina Avilés Lara *FE*
+María Elianet Hernández Arcos *FE*
+Berenice Lemus González *UX*
+Sandra Salinas *UX*
