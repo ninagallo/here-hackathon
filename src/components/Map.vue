@@ -13,9 +13,11 @@
                 platform: {},
                 ui: {},
                 search: {}
+
             }
         },
         props: {
+            
             appId: String,
             appCode: String,
             lat: String,
