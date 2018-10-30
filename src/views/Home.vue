@@ -3,20 +3,20 @@
         <Map
             appId="LbRwyMzRp1cGXIsI0GNE"
             appCode="_Zz0xbDQRqeT03IH5Q22iQ"
-            lat="37.7397"
-            lng="-121.4252"
-            width="100%"
-            height="835px" />
+            lat="194.326"
+            lng="-991.333"
+            width="300px"
+            height="380px" />
     </div>
 </template>
 
 <script>
-var platform = new H.service.Platform({
-  'app_id': 'LbRwyMzRp1cGXIsI0GNE',
-  'app_code': '_Zz0xbDQRqeT03IH5Q22iQ'
-})
-
 import Map from '../components/Map.vue';
+
+const platform = new H.service.Platform({
+  app_id: 'LbRwyMzRp1cGXIsI0GNE',
+  app_code: '_Zz0xbDQRqeT03IH5Q22iQ',
+});
 
 export default {
   name: 'home',

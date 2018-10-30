@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>
+      <router-link to="/home">Home</router-link>
       <router-link to="/login-driver">Eres conductor? Ingresa aquí</router-link>
       <router-view></router-view>
     </div>
@@ -9,24 +9,24 @@
 </template>
 
 <script>
-    import Map from "./components/Map.vue"
+import Map from './components/Map.vue';
 
-    export default {
-        name: 'app',
-        components: {
-            Map
-        },
-        data() {
-            return {
-                query: "schools"
-            }
-        },
-        methods: {
-            search() {
-                this.$refs.map.places(this.query);
-            }
-        }
-    }
+export default {
+  name: 'app',
+  components: {
+    Map,
+  },
+  data() {
+    return {
+      query: 'schools',
+    };
+  },
+  methods: {
+    search() {
+      this.$refs.map.places(this.query);
+    },
+  },
+};
 </script>
 
 <style>
