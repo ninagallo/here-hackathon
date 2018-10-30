@@ -26,8 +26,8 @@ Ayudar a resolver la logística del transporte escolar a través de una WebApp q
 
 
 ## Desarrolladoras
-Copelia Altamirano *FE*
-Carolina Avilés Lara *FE*
-María Elianet Hernández Arcos *FE*
-Berenice Lemus González *UX*
-Sandra Salinas *UX*
+* Copelia Altamirano *FE*
+* Carolina Avilés Lara *FE*
+* María Elianet Hernández Arcos *FE*
+* Berenice Lemus González *UX*
+* Sandra Salinas *UX*
