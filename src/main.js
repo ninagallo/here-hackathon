@@ -1,7 +1,6 @@
 import firebase from 'firebase';
 import VueRouter from 'vue-router';
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import BootstrapVue from 'bootstrap-vue';
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
@@ -9,6 +8,7 @@ import router from './router';
 Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
+Vue.use(BootstrapVue);
 
 new Vue({
   router,
