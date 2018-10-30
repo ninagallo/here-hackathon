@@ -36,6 +36,24 @@ Ayudar a resolver la logística del transporte escolar a través de una WebApp q
 ## Aplicación
 ![APP](https://i.imgur.com/8OIbNYK.jpg)
 
+## Pruebas con Ususarios
+
+**Tipología De Usuario Para La Prueba**
+
+*-Que este en un rango de edad de 30 a 45 años*
+
+*-Que use o haya usado sistema de transporte escolar*
+
+*-Que cuenten con dispositivo móvil*
+
+*-Que tenga hijos*
+
+https://drive.google.com/file/d/1ok2-qG0Dah6wrSzsXcWq5jNBPWq1RBMz/view?usp=sharing
+
+https://drive.google.com/file/d/1soxeQWB6S_yPR4Uvzg-9ipf5SvGKIx8e/view?usp=sharing
+
+https://drive.google.com/file/d/1mW3HxDlGUwSfa--BK_Cw4r1UFgiy6z2m/view?usp=sharing
+
 ## Prototipo de Alta Fidelidad
 
 https://marvelapp.com/f703194
